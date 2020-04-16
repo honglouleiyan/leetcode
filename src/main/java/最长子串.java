@@ -15,7 +15,7 @@ import java.util.HashMap;
  * @time: 16:44
  * @description:
  **/
-public class SolutionCharLong {
+public class 最长子串 {
     public static int lengthOfLongestSubstring(String s) {
         char[] ss = s.toCharArray() ;
         int left = 0 , right = 0 , n = ss.length ;

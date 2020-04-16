@@ -18,7 +18,7 @@ import java.util.Map;
  *
  * 二分查找，一直往中间切切切
  */
-public class SolutionFindMedian {
+public class 找出两个数组的中位数 {
 
     public static  double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
@@ -51,10 +51,10 @@ public class SolutionFindMedian {
 
 
     public static void main(String[] args) {
-        int[] nums1 = {1,4,5};
+        int[] nums1 = {1,4,5,22};
 
         int[] nums2 = {2,3,6};
 
-        findMedianSortedArrays(nums1,nums2);
+        System.out.println(findMedianSortedArrays(nums1,nums2));
     }
 }

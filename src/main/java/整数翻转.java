@@ -22,7 +22,7 @@
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-public class SolutionReverse {
+public class 整数翻转 {
     public static int reverse(int x){
         int ans = 0;//ans是计算结果
         while (x != 0) {

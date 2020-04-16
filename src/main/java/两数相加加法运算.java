@@ -17,7 +17,7 @@
  *
  * 使用一个进位符，一直加就行
  **/
-public class SolutionAddTwoNum {
+public class 两数相加加法运算 {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //虚拟头节点

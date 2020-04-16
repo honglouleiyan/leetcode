@@ -11,7 +11,7 @@
  * 输入: "cbbd"
  * 输出: "bb"
  **/
-public class SolutionLongestPalindrome {
+public class 最长回文子串滑动窗口 {
 
     public static String longestPalindrome(String s) {
         int len = s.length();
@@ -55,6 +55,46 @@ public class SolutionLongestPalindrome {
         return s.substring(start, start + maxLen);
     }
 
+
+
+    //以一个位置奇点向两边扩散
+    public String longestPalindrome1(String s) {
+
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        int strLen = s.length();
+        int left = 0;
+        int right = 0;
+        int len = 1;
+        int maxStart = 0;
+        int maxLen = 0;
+
+        for (int i = 0; i < strLen; i++) {
+            left = i - 1;
+            right = i + 1;
+            while (left >= 0 && s.charAt(left) == s.charAt(i)) {
+                len++;
+                left--;
+            }
+            while (right < strLen && s.charAt(right) == s.charAt(i)) {
+                len++;
+                right++;
+            }
+            while (left >= 0 && right < strLen && s.charAt(right) == s.charAt(left)) {
+                len = len + 2;
+                left--;
+                right++;
+            }
+            if (len > maxLen) {
+                maxLen = len;
+                maxStart = left;
+            }
+            len = 1;
+        }
+        return s.substring(maxStart + 1, maxStart + maxLen + 1);
+
+    }
     public static void main(String[] args) {
         System.out.println(longestPalindrome("sfddsfsdfsdfhjdskflsdfhjdshfsjfkls"));
     }
