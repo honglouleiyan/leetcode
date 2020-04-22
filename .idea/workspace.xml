@@ -2,40 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5819fa09-cfc3-4e51-b9e2-d1d1a3fa0373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/公约数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/删除排序链表中的重复元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/删除重复元素当前数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/加一.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/合并链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/外观序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/搜索插入位置.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/最大子序和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/有效的括号.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/爬楼梯.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/移出元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/第一次出现的子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/两数相除.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/只出现一次的数字或者字母.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/情侣牵手.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/打家劫舍.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/最大堆.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/最小堆.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/验证回文串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/两数相除.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/只出现一次的数字或者字母.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/情侣牵手.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/打家劫舍.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/最大堆$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/最大堆.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/最小堆.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/验证回文串.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionAddTwoNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/两数相加加法运算.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/字符串转换为整数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionCharLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/最长子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionFindMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/找出两个数组的中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionLongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/最长回文子串滑动窗口.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/整数翻转.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionTwoNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionZ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/最长公共前缀.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/最长公共前缀.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionAddTwoNum$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionAddTwoNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionAtoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionCharLong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionFindMedian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionLongestPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionTwoNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SolutionZ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/最长公共前缀.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/最长公共前缀.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/罗马数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/罗马数字.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/最长回文子串滑动窗口.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/最长回文子串滑动窗口.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,87 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/最大子序和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="75" column="60" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/加一.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/爬楼梯.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="e#1509#1510#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/删除排序链表中的重复元素.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/最长子串.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/最长回文子串滑动窗口.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/情侣牵手.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/合并链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="59" column="5" selection-start-line="36" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/删除重复元素当前数组.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" selection-start-line="94" selection-end-line="94" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/找出两个数组的中位数.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="33" />
+            <state relative-caret-position="21">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -216,6 +123,13 @@
         <option value="$PROJECT_DIR$/src/main/java/爬楼梯.java" />
         <option value="$PROJECT_DIR$/src/main/java/删除排序链表中的重复元素.java" />
         <option value="$PROJECT_DIR$/src/main/java/最长回文子串滑动窗口.java" />
+        <option value="$PROJECT_DIR$/src/main/java/验证回文串.java" />
+        <option value="$PROJECT_DIR$/src/main/java/只出现一次的数字或者字母.java" />
+        <option value="$PROJECT_DIR$/src/main/java/打家劫舍.java" />
+        <option value="$PROJECT_DIR$/src/main/java/最小堆.java" />
+        <option value="$PROJECT_DIR$/src/main/java/最大堆.java" />
+        <option value="$PROJECT_DIR$/src/main/java/两数相除.java" />
+        <option value="$PROJECT_DIR$/src/main/java/情侣牵手.java" />
       </list>
     </option>
   </component>
@@ -226,8 +140,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="26" />
+    <option name="x" value="19" />
+    <option name="y" value="50" />
     <option name="width" value="1630" />
     <option name="height" value="949" />
   </component>
@@ -237,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,13 +180,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587036063841" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587550212703" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -299,9 +213,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.最长回文子串滑动窗口">
+  <component name="RunManager" selected="Application.情侣牵手">
     <configuration name="合并链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="合并链表" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最小堆" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最小堆" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="两数相除" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="两数相除" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="情侣牵手" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="情侣牵手" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="找出两个数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="找出两个数组的中位数" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最小堆" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最小堆" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="只出现一次的数字或者字母" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="只出现一次的数字或者字母" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="打家劫舍" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="打家劫舍" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="验证回文串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="验证回文串" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,20 +305,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="找出两个数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="找出两个数组的中位数" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.合并链表" />
-      <item itemvalue="Application.最长回文子串滑动窗口" />
+      <item itemvalue="Application.最小堆" />
+      <item itemvalue="Application.两数相除" />
+      <item itemvalue="Application.情侣牵手" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.最长回文子串滑动窗口" />
+        <item itemvalue="Application.情侣牵手" />
+        <item itemvalue="Application.两数相除" />
+        <item itemvalue="Application.最小堆" />
         <item itemvalue="Application.合并链表" />
       </list>
     </recent_temporary>
@@ -369,18 +336,21 @@
       <workItem from="1586067029992" duration="4017000" />
       <workItem from="1586427580875" duration="3251000" />
       <workItem from="1586858699121" duration="29637000" />
-      <workItem from="1587035083969" duration="821000" />
+      <workItem from="1587035083969" duration="969000" />
+      <workItem from="1587111611672" duration="1880000" />
+      <workItem from="1587352996868" duration="3255000" />
+      <workItem from="1587432229223" duration="1495000" />
+      <workItem from="1587535820319" duration="4639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43880000" />
+    <option name="totallyTimeSpent" value="55297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="26" width="1630" height="949" extended-state="0" />
-    <editor active="true" />
+    <frame x="19" y="50" width="1630" height="949" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19017632" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20528968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,8 +359,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.40140024" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29288214" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28704783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3033839" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36172694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -505,6 +475,24 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/最小堆.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/最小堆.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/情侣牵手.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -520,10 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
-          <folding>
-            <element signature="e#46227#46228#0" expanded="true" />
-            <element signature="e#46266#46267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,17 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/字符串转换为整数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -565,10 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,11 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,21 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/第一次出现的子串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/罗马数字.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
           <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,25 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="59" column="67" lean-forward="true" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/搜索插入位置.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/最大子序和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="75" column="60" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -674,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/找出两个数组的中位数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/删除排序链表中的重复元素.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -688,17 +615,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/字符串转换为整数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="104" column="25" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/最大子序和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/最长子串.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="476">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/第一次出现的子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6137">
+          <caret line="398" column="25" selection-start-line="398" selection-start-column="25" selection-end-line="398" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98039">
+          <caret line="5843" column="26" selection-start-line="5843" selection-start-column="26" selection-end-line="5843" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/搜索插入位置.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/验证回文串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/最长回文子串滑动窗口.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="859">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/只出现一次的数字或者字母.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/打家劫舍.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/最小堆.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/最大堆.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="209" column="16" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#380#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#1506#1533#0" expanded="true" />
+            <element signature="e#4965#4974#0" expanded="true" />
+            <element signature="e#5103#5112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/两数相除.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/找出两个数组的中位数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/情侣牵手.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
