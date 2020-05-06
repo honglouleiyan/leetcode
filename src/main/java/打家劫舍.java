@@ -1,3 +1,6 @@
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
 /**
  * @created with IntelliJ IDEA.
  * @author: heaven
@@ -42,8 +45,22 @@ public class 打家劫舍 {
         return currMax;
     }
 
+    private static int[] copyInt(int[] num,int i,int j) {
+        int[] result = new int[num.length-1];
+        int m = 0;
+        for(int k =i;k<j;k++) {
+            result[m] = num[k];
+             m++;
+
+        }
+
+        return result;
+
+    }
+
     public static void main(String[] args) {
         int[] nums1 = {1,4,1,22};
         System.out.println(rob(nums1));
+        System.out.println(JSONObject.toJSONString(copyInt(nums1,0,nums1.length-1)));
     }
 }
