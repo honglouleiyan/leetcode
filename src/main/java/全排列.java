@@ -1,3 +1,5 @@
+import com.alibaba.fastjson.JSONObject;
+
 import java.util.Arrays;
 
 /**
@@ -38,6 +40,7 @@ public class 全排列 {
                 x[q] += a[m] * Math.pow(10, e);
                 e++;
             }
+            System.out.println(x[q]);
             q++;
         } else {
             for (int p = i; p <= j; p++) {

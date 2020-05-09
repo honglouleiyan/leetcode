@@ -66,7 +66,7 @@ public class 有效的括号生成个数 {
 
 
     public static void main(String[] args) {
-        int i = 7;
+        int i = 3;
         System.out.println(generater(i).size());
         System.out.println(CatalanNumber(i));
 
