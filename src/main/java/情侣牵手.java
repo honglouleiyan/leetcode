@@ -1,4 +1,20 @@
 /**
+ * N 对情侣坐在连续排列的 2N 个座位上，想要牵到对方的手。 计算最少交换座位的次数，以便每对情侣可以并肩坐在一起。 一次交换可选择任意两人，让他们站起来交换座位。
+ *
+ * 人和座位用 0 到 2N-1 的整数表示，情侣们按顺序编号，第一对是 (0, 1)，第二对是 (2, 3)，以此类推，最后一对是 (2N-2, 2N-1)。
+ *
+ * 这些情侣的初始座位  row[i] 是由最初始坐在第 i 个座位上的人决定的。
+ *
+ * 示例 1:
+ *
+ * 输入: row = [0, 2, 1, 3]
+ * 输出: 1
+ * 解释: 我们只需要交换row[1]和row[2]的位置即可。
+ * 示例 2:
+ *
+ * 输入: row = [3, 2, 0, 1]
+ * 输出: 0
+ * 解释: 无需交换座位，所有的情侣都已经可以手牵手了。
  * @created with IntelliJ IDEA.
  * @author: heaven
  * @date: 2020/4/22
@@ -10,14 +26,14 @@ public class 情侣牵手 {
         int ans = 0;
         for (int i = 0; i < row.length; i += 2) {
             int x = row[i];
-            System.out.println(x ^ 1);
+//            System.out.println(x ^ 1);
             if (row[i+1] == (x ^ 1)) {
                 continue;
             }
             ans++;
             for (int j = i+1; j < row.length; ++j) {
-                int aaa = row[j];
-                int bbb = x^1;
+//                int aaa = row[j];
+//                int bbb = x^1;
                 if (row[j] == (x^1)) {
                     row[j] = row[i+1];
                     row[i+1] = x^1;
@@ -31,5 +47,6 @@ public class 情侣牵手 {
     public static void main(String[] args) {
         int[] nums2 = {2,1,3,6,0,5,4,7};
         System.out.println(minSwapsCouples(nums2));
+        System.out.println(1^1^2^3^2^3^0);
     }
 }

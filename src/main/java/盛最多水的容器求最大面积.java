@@ -5,7 +5,7 @@
  * @time: 15:30
  * @description:
  **/
-public class 接最多雨水求最大面积 {
+public class 盛最多水的容器求最大面积 {
     public static  int maxArea(int[] height) {
         int i =0;
         int j = height.length - 1;

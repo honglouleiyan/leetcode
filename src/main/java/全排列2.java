@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 数组的全排列
  * //全排列算法，对个，十，百，千位上面的数字全排列
  * @created with IntelliJ IDEA.
  * @author: heaven

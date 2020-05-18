@@ -3,6 +3,7 @@ import com.alibaba.fastjson.JSONObject;
 import java.util.Arrays;
 
 /**
+ * 数字的全排列
  * @created with IntelliJ IDEA.
  * @author: heaven
  * @date: 2020/5/5
