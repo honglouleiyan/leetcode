@@ -45,6 +45,14 @@ public class 打家劫舍 {
         return currMax;
     }
 
+
+    /**
+     * 紧紧是复制数组
+     * @param num
+     * @param i
+     * @param j
+     * @return
+     */
     private static int[] copyInt(int[] num,int i,int j) {
         int[] result = new int[num.length-1];
         int m = 0;

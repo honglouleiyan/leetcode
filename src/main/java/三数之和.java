@@ -28,6 +28,7 @@ public class 三数之和 {
             c = +1;
             d= size-1;
             while (c < d) {
+
                 if(nums[i]  + nums[c] + nums[d] < target) {
                     c++;
                 } else if(nums[i] + nums[c] + nums[d] > target) {
@@ -37,7 +38,9 @@ public class 三数之和 {
                     temp.add(nums[i]);
                     temp.add(nums[c]);
                     temp.add(nums[d]);
-                    result.add(temp);
+                    if(i != c && i != d) {//bug点，重复元素
+                        result.add(temp);
+                    }
                     while (c < d && nums[c] == nums[c+1]) {
                         c++;
                     }
@@ -55,7 +58,7 @@ public class 三数之和 {
     }
 
     public static void main(String[] args) {
-        int [] input = {1, 0, -1, 0, -2, 2};
+        int [] input = {1,1,1,0,-1,0,-2,2};
         int target = 0;
         System.out.println(JSONObject.toJSONString(sun(input,target)));
     }
