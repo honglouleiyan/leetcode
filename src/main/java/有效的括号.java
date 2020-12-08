@@ -1,5 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Stack;
 
 /**
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
@@ -49,7 +50,50 @@ public class 有效的括号 {
         return stack.isEmpty();
     }
 
+
+    private static int isPair(char p, char curr) {
+        if ((p == '{' && curr == '}') || (p == '[' && curr == ']') || (p == '(' && curr == ')')) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
+
+    public static boolean isValid2(String s) {
+        Stack stack = new Stack();
+        if (s.isEmpty()) {
+            return true;
+        }
+        if ((s.length() & 1) == 1) {
+            return false;
+        }
+
+        for(int i = 0; i < s.length(); i++) {
+            char curr = s.charAt(i);
+            if(curr == '{' || curr == '('  || curr == '[' ) {
+                stack.push(s.charAt(i));
+            } else {
+                if(stack.empty()) {
+                    return false;
+                } else {
+                    char pop = (char) stack.pop();
+                    if(isPair(pop,curr) == 0) {
+                        return false;
+                    }
+                }
+            }
+        }
+
+        if(stack.empty()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public static void main(String[] args) {
         System.out.println(isValid("((({{[]}}))))"));
+        System.out.println(isValid2("((({{[]}})))"));
     }
 }

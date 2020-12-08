@@ -7,7 +7,7 @@ package util;
  * @time: 17:29
  * @description:
  **/
-public class LinkedList {
+public class LinkedList<I extends Number> {
     public Node head;
     public int location;//结点位置
     //头插

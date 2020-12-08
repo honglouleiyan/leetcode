@@ -1,3 +1,5 @@
+import java.nio.Buffer;
+
 /**
  * 验证是不是回文串
  * @created with IntelliJ IDEA.
@@ -50,7 +52,7 @@ public class 验证回文串 {
                 return false;
             }
 
-
+            Buffer
         }
         return true;
     }

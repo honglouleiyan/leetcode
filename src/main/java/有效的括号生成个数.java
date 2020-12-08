@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 卡特兰数的通项公式
+ * Cn 2n/（）
  * @created with IntelliJ IDEA.
  * @author: heaven
  * @date: 2020/4/23
@@ -67,8 +69,8 @@ public class 有效的括号生成个数 {
 
     public static void main(String[] args) {
         int i = 3;
-        System.out.println(generater(i).size());
-        System.out.println(CatalanNumber(i));
+        System.out.println(generater(i));
+//        System.out.println(CatalanNumber(i));
 
     }
 }

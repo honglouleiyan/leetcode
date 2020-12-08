@@ -1,4 +1,5 @@
 /**
+ * 一个有序数组旋转后，查找某个数
  * @created with IntelliJ IDEA.
  * @author: heaven
  * @date: 2020/7/1
@@ -19,7 +20,7 @@ public class 二分查找 {
             if(nums[mid] == target) {
                 return mid;
             }
-            //前一段递增
+            //若nums[lo] <= nums[mid]，则左边必定是有序数组，否则  右边是有序数组
             if(nums[lo] <= nums[mid])
             {
                 if(target < nums[mid] && target >= nums[lo]) {
@@ -46,8 +47,45 @@ public class 二分查找 {
     }
 
 
+
+    public static int search2(int[] nums,int target) {
+        int result = 0;
+        int low = 0;
+        int high = nums.length - 1;
+        while (low <= high) {
+            int middle = (low + high)/2;
+
+            if(target == nums[middle]) {
+                return middle;
+            }
+
+             if(nums[low] <= nums[middle]) {
+                //左边有序
+                if(target >= nums[low] && target <= nums[middle]) {
+                    high = middle - 1;
+                } else {
+                    low = middle + 1;
+                }
+
+            } else {
+                 //右边有序
+                  if (target >= nums[middle] && target <= nums[high]) {
+                     low = middle + 1;
+                 } else {
+                     high = middle - 1;
+                 }
+             }
+        }
+
+
+        return result;
+    }
+
+
     public static void main(String[] args) {
+
+
         int[] nums1 = {4,5,6,7,0,1,2};
-        System.out.println(search(nums1,1));
+        System.out.println(search2(nums1,7));
     }
 }

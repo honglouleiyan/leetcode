@@ -11,7 +11,7 @@ public class 单项链表查找倒数N个数 {
 
 
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
+        LinkedList<Number> linkedList = new LinkedList<Number>();
         linkedList.insertHeadNode("A");
             linkedList.insertHeadNode("B");
             linkedList.insertHeadNode("C");
