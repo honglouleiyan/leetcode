@@ -27,6 +27,6 @@ public class 翻转句子 {
     }
 
     public static void main(String[] args) {
-        System.out.println(over("the sky is blue aaa"));
+        System.out.println(over("the sky is blue ccc"));
     }
 }

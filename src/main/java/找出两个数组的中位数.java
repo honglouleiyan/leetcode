@@ -27,6 +27,8 @@ public class 找出两个数组的中位数 {
         int right = (m + n + 2) / 2;
         return (findKth(nums1, 0, nums2, 0, left) + findKth(nums1, 0, nums2, 0, right)) / 2.0;
     }
+
+
     //i: nums1的起始位置 j: nums2的起始位置
     public static int findKth(int[] nums1, int i, int[] nums2, int j, int k){
         //nums1为空数组

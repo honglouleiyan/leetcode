@@ -44,6 +44,9 @@ public class 有效的括号生成个数 {
     }
 
 
+
+
+
     //卡特兰数公式
     // 使用递归的方式解决卡特兰数
     public static long CatalanNumber(int n) {

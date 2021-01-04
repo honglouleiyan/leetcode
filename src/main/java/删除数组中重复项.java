@@ -52,27 +52,29 @@ public class 删除数组中重复项 {
      */
 
 
-    public static int removeList2(int[] list) {
-        int j=1;
+    public static int[] removeList2(int[] list) {
         int count = 1;
+
+        int tmp = list[0];
         for(int i = 1; i < list.length; i++) {
-            if(list[i] == list[i-1]) {
+            if(list[i] != tmp) {
+                list[count] = list[i];
+                tmp = list[i];
                 count++;
-            } else {
-                count =1;
-            }
-            if(count <= 2) {
-                list[j++] = list[i];
+
             }
         }
 
-        return j;
+        return list;
     }
 
 
     public static void main(String[] args) {
         int[] nums = {1,2,2,3,4,4,4,5};
-        System.out.println(removeList2(nums));
+        int[] result = removeList2(nums);
+        for (int i = 0; i < result.length; i++) {
+            System.out.println(nums[i]);
+        }
 
     }
 

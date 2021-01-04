@@ -11,7 +11,7 @@ public class 分治算法数组中查询某个数是否出现过 {
     /**
      * 在数组 { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 } 中，查找 8 是否出现过
      * @param a
-     * @param target
+     * @param
      * @return
      */
     public static Boolean fenzhi(int[] a,int target) {

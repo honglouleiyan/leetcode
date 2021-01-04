@@ -52,7 +52,6 @@ public class 验证回文串 {
                 return false;
             }
 
-            Buffer
         }
         return true;
     }
