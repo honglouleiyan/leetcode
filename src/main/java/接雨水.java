@@ -228,6 +228,29 @@ public class 接雨水 {
     }
 
 
+
+
+    public static int trap2222(int[] data) {
+        int sum = 0;
+        int[] left = new int[data.length];
+        int[] right = new int[data.length];
+        for(int i = 0; i < data.length; i++) {
+            left[i] = Math.max(left[i-1],data[i-1]);
+        }
+
+        for(int i = data.length - 2; i > 0; i--) {
+            right[i] = Math.max(data[i + 1],data[i+1]);
+        }
+
+        for(int i = 0; i < data.length; i ++) {
+            int min = Math.min(left[i],right[i]);
+            sum += min - data[i];
+        }
+
+        return sum;
+    }
+
+
     public static void main(String[] args) {
         int[] nums1 = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(trap(nums1));

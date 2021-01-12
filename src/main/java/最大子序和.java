@@ -48,13 +48,16 @@ public class 最大子序和 {
 
         // 计算中间值
         int center = (start + end) / 2;
-        int leftMax = maxSubArrayDivideWithBorder(nums, start, center); // 计算左侧子序列最大值
-        int rightMax = maxSubArrayDivideWithBorder(nums, center + 1, end); // 计算右侧子序列最大值
+        // 计算左侧子序列最大值
+        int leftMax = maxSubArrayDivideWithBorder(nums, start, center);
+        // 计算右侧子序列最大值
+        int rightMax = maxSubArrayDivideWithBorder(nums, center + 1, end);
 
         // 下面计算横跨两个子序列的最大值
 
         // 计算包含左侧子序列最后一个元素的子序列最大值
-        int leftCrossMax = Integer.MIN_VALUE; // 初始化一个值
+        // 初始化一个值,必须是最小值，不能为0，否则为负数时，math.max会是一个负数
+        int leftCrossMax = Integer.MIN_VALUE;
         int leftCrossSum = 0;
         for (int i = center ; i >= start ; i --) {
             leftCrossSum += nums[i];

@@ -8,25 +8,31 @@ package util;
  * @description:
  **/
 public class LinkedList<I extends Number> {
-    public Node head;
-    public int location;//结点位置
+    public Node next;
+    public int val;//结点位置
     //头插
     public void insertHeadNode(String data){
         Node node = new Node(data);
-        node.next = head;
-        head = node;
+        node.next = next;
+        next = node;
     }
-    public String NthNodeFromEnd(int NthNode){//查找倒数第n个结点
-        Node pNthNode = null;//!!!!易错
-        Node pTemp = head;
-        for(int count = 1;count<NthNode;count++){//1:先让pTemp移动到第NthNode个结点处
+
+
+    //查找倒数第n个结点
+    public String NthNodeFromEnd(int NthNode){
+        //!!!!易错
+        Node pNthNode = null;
+        Node pTemp = next;
+        //1:先让pTemp移动到第NthNode个结点处
+        for(int count = 1;count<NthNode;count++){
             if(pTemp != null){
                 pTemp = pTemp.next;
             }
         }
-        while(pTemp != null){//2:pNthNode开始移动
+        //2:pNthNode开始移动
+        while(pTemp != null){
             if(pNthNode == null){
-                pNthNode = head;
+                pNthNode = next;
             }else{
                 pNthNode = pNthNode.next;
             }
@@ -37,9 +43,10 @@ public class LinkedList<I extends Number> {
         }
         return null;
     }
+
     //显示所有结点信息
     public void displayAllNodes(){
-        Node curNode = head;
+        Node curNode = next;
         while(curNode != null){
             curNode.show();
             curNode = curNode.next;
