@@ -96,5 +96,14 @@ public class 删除重复元素当前数组 {
         quickSort(nums,0,nums.length-1);
         System.out.println(JSONObject.toJSONString(nums));
         System.out.println(removeDuplicates(nums));
+
+
+        int[] arr = {5, 1, 7, 3, 1, 6, 9, 4};
+
+        quickSort(arr, 0, arr.length - 1);
+
+        for (int i : arr) {
+            System.out.print(i + "\t");
+        }
     }
 }
