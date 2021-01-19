@@ -1,5 +1,5 @@
 /**
- * 一个有序数组旋转后，查找某个数
+ * 一个有序数组旋转翻转后，查找某个数
  * @created with IntelliJ IDEA.
  * @author: heaven
  * @date: 2020/7/1
