@@ -18,7 +18,8 @@ public class 全排列 {
     public static int allSort(int an) {
         int ans = an;
         int i = 0;
-        while (true) {                //求出给定的数字中的个，十，百，千，各个位上的数，并放到数组中
+        //求出给定的数字中的个，十，百，千，各个位上的数，并放到数组中
+        while (true) {
             if (an > 10) {
                 a[i] = an % 10;
                 an /= 10;
@@ -32,8 +33,8 @@ public class 全排列 {
         return search(ans);
     }
 
-
-    public static void pailie(int i, int j) {        //全排列算法，对个，十，百，千位上面的数字全排列
+    //全排列算法，对个，十，百，千位上面的数字全排列
+    public static void pailie(int i, int j) {
         if (i == j) {
             int e = 0;
             for (int m = 0; m <= j; m++) {
@@ -58,7 +59,8 @@ public class 全排列 {
         a[j] = z;
     }
 
-    public static int search(int ans) {        //对x[]数组中的数字进行直接排序
+    //对x[]数组中的数字进行直接排序
+    public static int search(int ans) {
         for (int i = 0; i < q; i++) {
             for (int j = i + 1; j < q; j++) {
                 if (x[i] > x[j]) {
@@ -68,7 +70,8 @@ public class 全排列 {
                 }
             }
         }
-        for (int h = 0; h < q; h++) {        //找出题目要求的数字
+        //找出题目要求的数字
+        for (int h = 0; h < q; h++) {
             if (x[h] > ans) {
                 return x[h];
             }

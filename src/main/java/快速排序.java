@@ -127,6 +127,7 @@ public class 快速排序 {
     public static void main(String[] args) {
         int[] a = {1,5,2,3,7,4,3,0};
         int[] b = maopao(a);
+        quickSort(a,0,a.length-1);
         for(int i = 0; i < a.length; i++) {
             System.out.print(b[i]);
         }
