@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5819fa09-cfc3-4e51-b9e2-d1d1a3fa0373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/最长递增子序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/背包问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/高楼扔鸡蛋.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/分割链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,24 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/最大子序和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="34" />
-              <folding>
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/最长递增子序列.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/分割链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="27" />
+            <state relative-caret-position="-131">
+              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -92,6 +76,7 @@
       <find>括号</find>
       <find>翻转</find>
       <find>岛屿</find>
+      <find>create</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -118,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/打家劫舍3.java" />
         <option value="$PROJECT_DIR$/src/main/java/全排列2.java" />
         <option value="$PROJECT_DIR$/src/main/java/只出现一次的数字.java" />
@@ -169,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/java/完全背包问题2.java" />
         <option value="$PROJECT_DIR$/src/main/java/高楼扔鸡蛋.java" />
         <option value="$PROJECT_DIR$/src/main/java/最长递增子序列.java" />
+        <option value="$PROJECT_DIR$/src/main/java/分割链表.java" />
       </list>
     </option>
   </component>
@@ -227,7 +212,7 @@
     <property name="SearchEverywhereHistoryKey" value="链表&#9;FILE&#9;file:///Users/heaven/projectitem/leetcode/src/main/java/翻转链表.java&#10;翻转&#9;FILE&#9;file:///Users/heaven/projectitem/leetcode/src/main/java/整数翻转.java&#10;tre&#9;PSI&#9;JAVA://蛇形打印二叉树.TreeNode&#10;tree&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java&#10;树&#9;FILE&#9;file:///Users/heaven/projectitem/leetcode/src/main/java/蛇形打印二叉树.java&#10;括号&#9;FILE&#9;file:///Users/heaven/projectitem/leetcode/src/main/java/有效的括号生成个数.java&#10;和&#9;FILE&#9;file:///Users/heaven/projectitem/leetcode/src/main/java/最大子序和.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611128940387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611210119468" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -257,16 +242,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.最长递增子序列">
+  <component name="RunManager" selected="Application.分割链表">
     <configuration name="高楼扔鸡蛋" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="高楼扔鸡蛋" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="最长递增子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="最长递增子序列" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,50 +264,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="完全背包问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="完全背包问题" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="最长公共子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="最长公共子串" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="找出两个数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="找出两个数组的中位数" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="接雨水" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="合并有序数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="合并有序数组" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="打家劫舍" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="打家劫舍" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="最大子序和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="最大子序和" />
+    <configuration name="分割链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="分割链表" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,6 +341,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="最长递增子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最长递增子序列" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="四数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="四数之和" />
       <module name="leetcode" />
@@ -470,6 +413,13 @@
     </configuration>
     <configuration name="接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="接雨水" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="完全背包问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="完全背包问题" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -545,6 +495,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="最长公共子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最长公共子串" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="有效的括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="有效的括号" />
       <module name="leetcode" />
@@ -609,6 +566,13 @@
     </configuration>
     <configuration name="方格棋盘" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="方格棋盘" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="找出两个数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="找出两个数组的中位数" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -691,6 +655,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="接雨水" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="二分查找" />
       <module name="leetcode" />
@@ -740,19 +711,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="合并有序数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="合并有序数组" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="打家劫舍" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="打家劫舍" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最大子序和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最大子序和" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.完全背包问题" />
       <item itemvalue="Application.全排列2" />
-      <item itemvalue="Application.完全背包问题2" />
       <item itemvalue="Application.高楼扔鸡蛋" />
-      <item itemvalue="Application.最长递增子序列" />
+      <item itemvalue="Application.分割链表" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.最长递增子序列" />
+        <item itemvalue="Application.分割链表" />
         <item itemvalue="Application.高楼扔鸡蛋" />
-        <item itemvalue="Application.完全背包问题2" />
-        <item itemvalue="Application.完全背包问题" />
         <item itemvalue="Application.全排列2" />
       </list>
     </recent_temporary>
@@ -824,17 +812,19 @@
       <workItem from="1611020710590" duration="8757000" />
       <workItem from="1611055900147" duration="50000" />
       <workItem from="1611109770504" duration="622000" />
-      <workItem from="1611115892949" duration="6051000" />
+      <workItem from="1611115892949" duration="6104000" />
+      <workItem from="1611209627752" duration="543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219626000" />
+    <option name="totallyTimeSpent" value="220222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="48" width="1583" height="892" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2744971" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27774173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -843,7 +833,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29125" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19375" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1115,30 +1105,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/翻转链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/翻转句子.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/罗马数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/缺失的第一个正整数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1258,13 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/单项链表查找倒数N个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
@@ -1283,13 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/合并链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1480,9 +1432,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/最长递增子序列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/最大子序和.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="583">
           <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="34" />
           <folding>
             <element signature="e#801#802#0" expanded="true" />
@@ -1491,10 +1450,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/最长递增子序列.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/合并有序数组.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="27" />
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/合并有序数组2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/单项链表查找倒数N个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/合并链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/分割链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
         </state>
       </provider>
     </entry>
