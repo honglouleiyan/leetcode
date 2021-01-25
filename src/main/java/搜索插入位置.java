@@ -19,23 +19,25 @@
  **/
 public class 搜索插入位置 {
     public static int searchInsert(int[] nums, int target) {
-        int left = 0, right = nums.length - 1; // 注意
-        while(left <= right) { // 注意
-            int mid = (left + right) / 2; // 注意
-            if(nums[mid] == target) { // 注意
-                // 相关逻辑
-            } else if(nums[mid] < target) {
-                left = mid + 1; // 注意
+        int n = nums.length;
+        int left = 0, right = n - 1, ans = n;
+        while (left <= right) {
+            int mid = ((right - left) >> 1) + left;
+            if (target <= nums[mid]) {
+                ans = mid;
+                right = mid - 1;
             } else {
-                right = mid - 1; // 注意
+                left = mid + 1;
             }
         }
-        // 相关返回值
-        return 0;
+        return ans;
     }
 
+
+
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,6};
-        System.out.println();
+        int[] nums = {1,3,4,6};
+
+        System.out.println(searchInsert(nums,5));
     }
 }
