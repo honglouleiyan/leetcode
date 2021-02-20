@@ -53,8 +53,8 @@ public class 两数之和 {
 
 
     public static void main(String[] args) {
-        int[] B = new int[] {2, 5, 6};
-        int[] A = twoSum2(B,7);
+        int[] B = new int[] {2, 5, 6,5,-5,-6};
+        int[] A = twoSum2(B,0);
         for (int i = 0; i < A.length; i++) {
             System.out.print(B[i] + ",");
         }
